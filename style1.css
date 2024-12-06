@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #FAF9F6;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Section */
+section:first-of-type {
+    background-color: #34495E; /* Dark blue header background */
+    color: #FDF2E9;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+section:first-of-type .content-box h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #FFD3B6;
+    margin-bottom: 0;
+}
+
+/* General Section Styling */
+section {
+    margin: 20px 0;
+    padding: 30px 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section .content-box {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Section Heading */
+section h2 {
+    font-size: 2.5rem;
+    color: #4A536B;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Paragraph Styling */
+section p {
+    font-size: 1.1rem;
+    color: #707B7C;
+    margin: 10px 0 20px;
+    line-height: 1.8;
+}
+
+/* Link (Button-like GitHub Link & Website Link Styling) */
+a {
+    display: inline-block;
+    background-color: #FF686B;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+    background-color: #f53033;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #707B7C;
+    margin: 30px 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    section h2 {
+        font-size: 2.3rem;
+    }
+
+    section p {
+        font-size: 1rem;
+    }
+
+    a {
+        padding: 8px 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    section h2 {
+        font-size: 2rem;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+
+    a {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    section p {
+        font-size: 0.8rem;
+    }
+
+    a {
+        padding: 6px 12px;
+    }
+}
